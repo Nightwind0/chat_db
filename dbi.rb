@@ -4,7 +4,7 @@ gem 'dbi'
 require 'dbi'
 
 begin
-dbh = DBI.connect('DBI:Mysql:ro_chatdb:mysql.rechargeableonion.com','chatdb_user','wwccppa')
+dbh = DBI.connect('DBI:Mysql:ro_chatdb:mysql.rechargeableonion.com','chatdb_user','')
 
 
 sth = dbh.execute("select sname from protocols")
